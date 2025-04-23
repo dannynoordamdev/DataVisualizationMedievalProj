@@ -1,0 +1,22 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.Container .Title{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.Container .Button{
+    font-family: Arial, serif;
+    font-weight: 300;
+    width: 50%;
+}

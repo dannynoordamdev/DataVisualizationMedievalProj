@@ -1,0 +1,38 @@
+.login-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+.input-group{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 10px;
+}
+
+.input-group input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px solid;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.61);
+
+}
+
+.input-group button{
+    margin-top: 15px;
+    width: 100%;
+
+}
+
+.login-container .login-titel{
+    font-weight: 900;
+    font-size: 3rem;
+}
+

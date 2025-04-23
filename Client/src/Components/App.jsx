@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Navigate, BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Visualizatie_pagina from "./Pages/Visualizatie_pagina.jsx";
 import Home from "./Pages/Home_Pagina.jsx";
+import LoginPage from "./Pages/LoginPage.jsx";
 
 // Authenticatie check backend
 const checkAuthentication = async () => {
@@ -44,7 +45,9 @@ function App() {
   return (
       <Router>
         <Routes>
+          
           <Route path="/" element={<Home />} />
+          <Route path="/login" element={<LoginPage />} />
           <Route
               path="/visualizatie"
               element={
@@ -54,7 +57,6 @@ function App() {
               }
           />
 
-          <Route path="/*" element={<NotFound />} />
         </Routes>
       </Router>
   );
