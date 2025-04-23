@@ -4899,19 +4899,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Danny\\.nuget\\packages\\": {}
+    "C:\\Users\\danny\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Danny\\Desktop\\Projects\\DataVisualizationMedievalProj\\Server\\Server.csproj",
+      "projectUniqueName": "C:\\Users\\danny\\RiderProjects\\DataVisualizationMedievalProj\\Server\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "C:\\Users\\Danny\\Desktop\\Projects\\DataVisualizationMedievalProj\\Server\\Server.csproj",
-      "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Danny\\Desktop\\Projects\\DataVisualizationMedievalProj\\Server\\obj\\",
+      "projectPath": "C:\\Users\\danny\\RiderProjects\\DataVisualizationMedievalProj\\Server\\Server.csproj",
+      "packagesPath": "C:\\Users\\danny\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\danny\\RiderProjects\\DataVisualizationMedievalProj\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\danny\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4988,7 +4988,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
